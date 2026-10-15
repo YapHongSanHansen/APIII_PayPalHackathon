@@ -1,0 +1,21 @@
+# secrets
+.env
+.env*.local
+.env.*
+!.env.example
+
+# local data: embedded DB + dev seal/receipt keys
+.data/
+
+# deps / build
+next-env.d.ts
+*.tsbuildinfo
+node_modules/
+.next/
+out/
+dist/
+.vercel/
+
+# misc
+.DS_Store
+*.log

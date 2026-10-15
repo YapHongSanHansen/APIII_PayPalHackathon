@@ -1,0 +1,29 @@
+{
+  "name": "apiii",
+  "version": "0.1.0",
+  "private": true,
+  "description": "APIII: list any API in 3 minutes; AI agents pay with PayPal only for answers that keep the promise.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.10",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "next": "^16.4.1",
+    "openai": "^7.34.0",
+    "pg": "^8.23.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
